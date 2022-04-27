@@ -1,5 +1,123 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.all {
+  position: relative;
+  background: rgba(0, 0, 0, 0.849) url("photos/pexels-artem-beliaikin-853199.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 150vh;
+  /* border: 5px solid red; */
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+h1:hover{
+    color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  /* margin-top: 150px; */
+  padding-top: 60px;
+}
+:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+label {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+input {
+  color: white;
+  width: 800px;
+  padding: 12px;
+  border: 2px solid rgb(255, 0, 0);
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, red , rgb(255, 255, 255));
+  color: rgb(255, 255, 255);
+  width: 400px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+input[type="submit"]:hover {
+    /* transition: 5s; */
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(255, 0, 0));
+    color: rgb(255, 255, 255);
     
+  }
+
+  .grad {
+    background-image: linear-gradient(to right, red , rgb(255, 255, 255));
+  }
+
+/* .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  } */
+
+#message {
+  display: none;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: rgb(0, 169, 0);
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
 }

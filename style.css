@@ -5,7 +5,7 @@
 }
 .all {
   position: relative;
-  background: rgba(0, 0, 0, 0.849) url("photos/pexels-artem-beliaikin-853199.jpg");
+  background: rgba(0, 0, 0, 0.849) url("photos/new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
@@ -37,12 +37,12 @@ form {
   color: rgb(255, 255, 255);
 }
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
+
   color: rgb(255, 255, 255);
 }
 ::placeholder {
   color: rgb(255, 255, 255);
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 label {
   color: white;
